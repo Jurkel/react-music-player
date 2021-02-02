@@ -8,7 +8,17 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { playAudio } from '../util';
 
-const Player = ({ currentSong, isPlaying, setIsPlaying, audioRef, setSongInfo, songInfo, songs, setCurrentSong, setSongs }) => {
+const Player = ({ 
+  currentSong, 
+  isPlaying, 
+  setIsPlaying, 
+  audioRef, 
+  setSongInfo, 
+  songInfo, 
+  songs, 
+  setCurrentSong, 
+  setSongs 
+}) => {
   
   //UseEffect
   useEffect(() => {
